@@ -1,0 +1,90 @@
+a.pseudo.hover {
+    color:red;
+}
+
+body {
+  background-color: rgb(230, 240, 244);
+  
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
+
+a.pseduo:active {color:rgb(83, 123, 158);}
+
+.box
+{ background-color: lightgray;
+width: 400px;
+border:15px solid green;
+padding: 50px;
+margin: 50px;}
+
+.p{ background-color: rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+margin: 0px 100px 0px 30px;
+ text-align:  center;
+ }
+
+ p.dotted {border-style: dotted;}
+
+ div {
+    border: px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: rgb(165, 191, 191);
+  }
+  ul.a {
+    list-style-type: circle;
+  }
+  
+  ul.b {
+    list-style-type: square;
+  }
+  
+  ol.c {
+    list-style-type: upper-roman;
+  }
+  
+  ol.d {
+    list-style-type: lower-alpha;
+  }
+
+
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 2px;
+    text-align: center;
+  }
+
+  a:hover {
+    background-color: yellow;
+
+
+  }
